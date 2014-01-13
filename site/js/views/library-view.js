@@ -49,6 +49,6 @@ app.LibraryView = Backbone.View.extend({
             }
         });
 
-        this.collection.add( new app.Book( formData ) );
+        this.collection.create( formData );
     },
 });
